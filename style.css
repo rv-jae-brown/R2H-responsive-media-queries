@@ -1,60 +1,117 @@
-body{
+body {
     background-color: rgb(77, 76, 76)
 }
-div{
+
+div {
     width: 100%;
     background-color: red;
     height: 100px;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
 }
-ul li{
+
+ul li {
     list-style: none;
 }
 
-#red{
+#red {
     color: red;
     font-size: 60px;
 }
-#blue{
+
+#blue {
     color: blue;
     font-size: 16px
 }
-#green{
+
+#green {
     color: green;
     font-size: 16px
 }
-#yellow{
+
+#yellow {
     color: yellow;
     font-size: 16px
 }
 
-@media screen and (max-width:1500px){
-    div{
+@media screen and (max-width:1500px) {
+    div {
         background-color: blue;
     }
-    #red{
+
+    #red {
         color: red;
         font-size: 16px;
     }
-    #blue{
+
+    #blue {
         color: blue;
         font-size: 60px;
     }
-    #green{
+
+    #green {
         color: green;
         font-size: 16px;
     }
-    #yellow{
+
+    #yellow {
         color: yellow;
         font-size: 16px;
     }
 }
 
+@media screen and (max-width:1000px) {
+    div {
+        background-color: green;
+    }
 
+    #red {
+        color: red;
+        font-size: 16px;
+    }
 
+    #blue {
+        color: blue;
+        font-size: 16px;
+    }
 
+    #green {
+        color: green;
+        font-size: 60px;
+    }
 
+    #yellow {
+        color: yellow;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    div {
+        background-color: yellow;
+    }
+
+    #red {
+        color: red;
+        font-size: 16px;
+    }
+
+    #blue {
+        color: blue;
+        font-size: 16px;
+    }
+
+    #green {
+        color: green;
+        font-size: 16px;
+    }
+
+    #yellow {
+        color: yellow;
+        font-size: 60px;
+    }
+}
