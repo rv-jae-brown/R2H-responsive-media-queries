@@ -5,14 +5,21 @@ body {
 div {
     width: 100%;
     background-color: red;
-    height: 100px;
+    height: 50px;
 }
 
 ul {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
 }
+
+/* ul {
+    display: grid;
+    grid-template-areas: "a a a a";
+    justify-items: center;
+} */
 
 ul li {
     list-style: none;
